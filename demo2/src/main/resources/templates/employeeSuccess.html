@@ -1,0 +1,50 @@
+<!--DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Employee Form Submission</title>
+    <script src="/successAlert.js"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body onload="showConfirmation()">
+<h2>Employee Form Submitted</h2>
+<div>
+    <p>First Name: <span th:text="${employee.firstName}"></span></p>
+    <p>Last Name: <span th:text="${employee.lastName}"></span></p>
+    <p>Email: <span th:text="${employee.email}"></span></p>
+    <p>Phone: <span th:text="${employee.phone}"></span></p>
+</div>
+</body>
+</html-->
+<!--<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Employee Form Submission</title>
+</head>
+<body>
+<h2>Employee Form Submitted</h2>
+<div>
+    <p>First Name: <span th:text="${employee.firstName}"></span></p>
+    <p>Last Name: <span th:text="${employee.lastName}"></span></p>
+    <p>Email: <span th:text="${employee.email}"></span></p>
+    <p>Phone: <span th:text="${employee.phone}"></span></p>
+</div>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Employee Form Submission</title>
+    <script src="/successAlert.js"></script>
+</head>
+<body onload="showConfirmation()">
+<h2>Employee Form Submitted</h2>
+<div>
+    <p>First Name: <span th:text="${employee.firstName}"></span></p>
+    <p>Last Name: <span th:text="${employee.lastName}"></span></p>
+    <p>Email: <span th:text="${employee.email}"></span></p>
+    <p>Phone: <span th:text="${employee.phone}"></span></p>
+    <p>Gender: <span th:text="${employee.gender}"></span></p>
+    <p>Department: <span th:text="${employee.department}"></span></p>
+</div>
+</body>
+</html>

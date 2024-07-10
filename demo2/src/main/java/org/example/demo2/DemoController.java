@@ -23,7 +23,8 @@ public class DemoController {
         model.addAttribute("lastName", employee.getLastName());
         model.addAttribute("email", employee.getEmail());
         model.addAttribute("phone", employee.getPhone());
-        //model.addAttribute("department", employee.getDepartment());
+        model.addAttribute("gender", employee.getGender());
+        model.addAttribute("department", employee.getDepartment());
         return "employeeSuccess"; // Assuming "employeeSuccess.html" exists in templates directory
     }
 }
